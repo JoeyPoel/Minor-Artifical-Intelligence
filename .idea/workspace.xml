@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3af35f93-12cf-47ec-b5ca-2fbcfa82b585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bootcamp/Dag_1/HelloWorld.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/Dag_1/HelloWorld.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="3af35f93-12cf-47ec-b5ca-2fbcfa82b585" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +27,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/joeyw/minor_logboek_aai_2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -38,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707296994146</updated>
       <workItem from="1707297004698" duration="29000" />
+      <workItem from="1707298553367" duration="642000" />
     </task>
     <servers />
   </component>
