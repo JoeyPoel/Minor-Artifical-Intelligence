@@ -21,7 +21,7 @@ Ik werkte op een hoog tempo door mijn manier van werken en wil dit ook volhouden
 
 ## Reflectie op het gebied van de AI
 
-Met AI is heel veel mogelijk, zo kan je teksten genereren, fotos genereren / herkennen, hierbij kan je bijvoorbeeld gezichtsherkenning toepassen. 
+Met AI is heel veel mogelijk, zo kan je teksten genereren, fotos genereren / herkennen, hierbij kan je bijvoorbeeld gezichtsherkenning toepassen.
 Met AI gebruik je voor verzamelde data om daarop te trainen, met deze training worden regels gemaakt en kunnen gewichten aan opties gegeven worden. Op basis van deze regels / gewichten kan een AI keuzes maken, dit kan door een binaire keuze of door een kans per optie te berekenen.
 Je kan een AI op vele manieren verbeteren, de data filteren, de hoeveelheid keer uit te voeren, de hoeveelheid neuronen (Soort hersencellen) aan te passen of door een heel ander model te gebruiken.
 Het is mogelijk om de uitkomst en de oorspronkelijke data op vele manieren te laten zien, dit doe je vaak door het plotten (Een grafiek / een tabel te genereren).
