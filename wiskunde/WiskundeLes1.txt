@@ -70,29 +70,36 @@ normaal = (2, 4)
 
 getransponeerd = (2, 3, 10)
                  (4, 4, 12)
+
 - de inverse matrix
 de inverse matrix is een vierkante matrix(evenveel kollommen als rijen) en wanneer je deze vermenigvuldigd met de orginele matrix krijg je de identiteitsmatrix.
 om deze te bepalen moet je eerst de determinant weten. dit bereken je door alle vierkante matrixen kruislings te vermenigvuldigen.
+Hierbij vermenig vuldig je het bovenste getal met de alle rijen onder de rijen waar het getal in zit, je moet deze elke keer een plekje opschuiven tot hij het einde heeft bereikt.
 
 determinant van (2, 4, 4) = 2 * determinant (4,6) - 4 * determinant (3,6) + 4 * determinant (3, 4) = 2 * (32 - 72) - 4 * (24 - 60) + 4 * (36 - 40) = 48
                 (3, 4, 6)                   (12, 8)                 (10, 8)                 (10, 12)
                 (10,12, 8)
-nu moet je de adjunct matrix bepalen. je moet dus weer de determinant bepalen voor elk  elk element uit de orginele matrix dat word (−40 -36 -4)
-                                                                                                                                    (−40 -32 -2)
-                                                                                                                                    ( 0 -2 -2)
-nu ga je voor elk element in de adjunct matrix delen door de determinant die 48 is.(−5/6 -3/4 -1/12)
-                                                                                   (−5/6 -2/3 -1/24)
-                                                                                    ( 0 -1/24 -1/24)
 
-dat is de inverse matrix. als je dit x de orginele matrix doet krijg je de identiteitsmatrix (1 0 0)
-                                                                                             (0 1 0)
-                                                                                             (0 0 1)
+nu moet je de adjunct matrix bepalen. je moet dus weer de determinant bepalen voor elk element uit de orginele matrix dat word
+(−40 -36 -4)
+(−40 -32 -2)
+( 0 -2 -2)
+
+nu ga je voor elk element in de adjunct matrix delen door de determinant die 48 is.
+(−5/6 -3/4 -1/12)
+(−5/6 -2/3 -1/24)
+( 0 -1/24 -1/24)
+
+dat is de inverse matrix. als je dit x de orginele matrix doet krijg je de identiteitsmatrix 
+(1 0 0)
+(0 1 0)
+(0 0 1)
 
 5. euclidische afstand en manhattan afstand
  - euclidische afstand is de directe afstand tussen 2 punten in een gebied. dit bereken je met de stelling van pytagoras. 
- stel je hebt punt a(1,4) en punt b(-3,1) dan doe je de vectoren min elkaar dus dan krijg je 4 en 3 dan doe je 4^2 + 3^2 = 25 
- daar doe je dan de wortel van wortel(25) = 5 dus dan is dat de euclidische afstand.
+ stel je hebt punt a(1,4) en punt b(-3,1) dan doe je de vectoren in absolute getallen min elkaar dus dan krijg je 4 en 3 daarna kwadateer je de getallen, dus: 4^2 + 3^2 = 25 
+ daar neem je de wortel van dus: wortel(25) = 5 dit is de euclidische afstand.
 
- bij de manhattan afstand mag je alleen maar rechte stukken gaan. de manhattan afstand is gewoon de vectoren min elkaar en de resultaten daarvan plus elkaar.
+ bij de manhattan afstand mag je alleen maar rechte stukken gaan. de manhattan afstand is gewoon de het verschil tussen de vectoren en daarna doe je de resultate plus elkaar.
  bijvoorveeld: a(1,4) - b(-3,1) dan krijg je 4 en 3. 4 + 3 = 7 dus de manhattan afstand = 7
   
