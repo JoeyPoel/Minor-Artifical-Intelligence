@@ -1,0 +1,98 @@
+1. Waarvoor word lineaire algebra gebruikt binnen AI?
+ - gegevens presentatie en transformatie:
+ Binnen AI kan je bijvoorveeld foto's laten zien als matrices van pixelwaarden.
+ Door dit te transformeren met lineaire algebra kan AI complexe data begrijpen.
+ - models:
+ Veel machine learning models maken gebruik van lineaire algebra om te bouwen en te trainen.
+ - Demensionaliteits reductie:
+ PCA en SVD maken gebruik van lineaire algebra om de demensies te verminderen.
+ Hierdoor word ruis verminderd en werken algoritme sneller.
+ - Optimalisatie:
+ Bij lineaire Optimalisatie problemen word het gebruikt om deze problemen op te lossen.
+
+2. Wat is een vector?
+ - een vector is een lijn tussen twee punten die vaak een richting heeft en gerepresenteerd kan worden door getallen.
+ die getallen stellen de coordinaten van punten voor in een specifieke ruimte. (3, 2, 1) is een vector die op punt 3 zit in de eerste demensie,
+ punt 2 in de tweede demensie en punt 1 in de derde demensie.
+ - optellen
+ (1,2,3) + (2,3,1) = (3,5,4)
+ - aftrekken
+ (1,2,3) - (2,3,1) = (-1, -1, 2)
+ - vermenigvuldigen
+ (1,2,3) x (2,3,1) = (2,6,3)
+ - delen
+ (2,4,6) / (1,2,3) = (2,2,2)
+ - inproduct
+ Het inproduct word gebruikt om de gewogen som van een vector te berekenen.
+ Dit zegt wat over de hoek die de 2 vectoren die iets met elkaar te maken hebben.
+ (1,2,3) x (2,3,1) = 1 x 2 + 2 x 3 + 3 x 1 = 2 + 6 + 3 = 11
+
+3. Wat is een matrix?
+ - Een matrix is bestaat uit rijen en kollommen. Een vector is een matrix met 1 collom en meerdere rijen.
+ (1,2)
+ (3,4)
+ (5,6) <- dit is een matrix
+ - optellen
+ (1,2)   (1,2)   (2, 4)
+ (3,4) + (3,4) = (6, 8)
+ (5,6)   (5,6)   (10,12)
+  - aftrekken
+ (3,6)   (1,2)   (2, 4)
+ (8,10) - (3,4) = (5, 6)
+ (12,16)   (5,6)   (7,10)
+  - hadamar product
+ (1,2)   (1,2)   (1, 4)
+ (3,4) x (3,4) = (9, 16)
+ (5,6)   (5,6)   (25,36)
+   - vermenigvuldigen
+ (1,2)           (13,16)
+ (3,4) x (3,4) = (29,36)
+ (5,6)   (5,6)   (45,56)
+
+(1 x 3) + (2 x 5) = 13
+(1 x 4) + (2 x 6) = 16
+(3 x 3) + (4 x 5) = 29
+(3 x 4) + (4 x 6) = 36
+(5 x 3) + (6 x 5) = 45
+(5 x 4) + (6 x 6) = 56
+
+ - scalar vermenigvuldiging
+ (1,2)       (2, 4)
+ (3,4) x 2 = (6, 8)
+ (5,6)       (10,12)
+
+4. getransponeerde matrix, inverse matrix, determinant matrix en identiteitsmatrix
+
+- de getransponeerde matrix krijg je door de kollommen en rijen om te wisselen
+normaal = (2, 4)
+          (3, 4)
+          (10,12)
+
+getransponeerd = (2, 3, 10)
+                 (4, 4, 12)
+- de inverse matrix
+de inverse matrix is een vierkante matrix(evenveel kollommen als rijen) en wanneer je deze vermenigvuldigd met de orginele matrix krijg je de identiteitsmatrix.
+om deze te bepalen moet je eerst de determinant weten. dit bereken je door alle vierkante matrixen kruislings te vermenigvuldigen.
+
+determinant van (2, 4, 4) = 2 * determinant (4,6) - 4 * determinant (3,6) + 4 * determinant (3, 4) = 2 * (32 - 72) - 4 * (24 - 60) + 4 * (36 - 40) = 48
+                (3, 4, 6)                   (12, 8)                 (10, 8)                 (10, 12)
+                (10,12, 8)
+nu moet je de adjunct matrix bepalen. je moet dus weer de determinant bepalen voor elk  elk element uit de orginele matrix dat word (−40 -36 -4)
+                                                                                                                                    (−40 -32 -2)
+                                                                                                                                    ( 0 -2 -2)
+nu ga je voor elk element in de adjunct matrix delen door de determinant die 48 is.(−5/6 -3/4 -1/12)
+                                                                                   (−5/6 -2/3 -1/24)
+                                                                                    ( 0 -1/24 -1/24)
+
+dat is de inverse matrix. als je dit x de orginele matrix doet krijg je de identiteitsmatrix (1 0 0)
+                                                                                             (0 1 0)
+                                                                                             (0 0 1)
+
+5. euclidische afstand en manhattan afstand
+ - euclidische afstand is de directe afstand tussen 2 punten in een gebied. dit bereken je met de stelling van pytagoras. 
+ stel je hebt punt a(1,4) en punt b(-3,1) dan doe je de vectoren min elkaar dus dan krijg je 4 en 3 dan doe je 4^2 + 3^2 = 25 
+ daar doe je dan de wortel van wortel(25) = 5 dus dan is dat de euclidische afstand.
+
+ bij de manhattan afstand mag je alleen maar rechte stukken gaan. de manhattan afstand is gewoon de vectoren min elkaar en de resultaten daarvan plus elkaar.
+ bijvoorveeld: a(1,4) - b(-3,1) dan krijg je 4 en 3. 4 + 3 = 7 dus de manhattan afstand = 7
+  
