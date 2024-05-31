@@ -31,7 +31,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | | | | | | |
 | **Data voorbereiden en feature selection** |**Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | |
 | Z-scores | T | Behaald tijdens wiskunde assignment |[Z-scores toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1,2 |
-| Standaardafwijking | T | Behaald tijdens wiskunde assignment | | 1 |
+| Standaardafwijking | T | Behaald tijdens wiskunde assignment |[Standaardafwijking gebruikt bij verwijderen outliers bij boxplot van titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
 | Normaliseren | T | Behaald tijdens wiskunde assignment |[Preprocessed the image data by resizing and normalizing the images, and encoded the labels.](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) - see the section titleed "Data Preprocessing"| 1,2 |
 | T-toets | A | Behaald tijdens wiskunde assignment |[T-toets toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
 | ANOVA | T | Behaald tijdens wiskunde assignment |[Anova toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1,2 |
@@ -44,13 +44,13 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
  | | | | |
 | **Model selecteren, instellen, trainen en testen/valideren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Geschikt algoritme kiezen | A | | | 3 |
-| KNN | A | | | 1 |
+| KNN | A | | [KNN toegepast op herkenning van handgeschreven cijfers](bootcamp\Dag_8\2024_02_16_MNIST_kNN_opdracht.ipynb) | 1 |
 | SVM | A | |[Support Vector Machine](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)| 1 |
-| Naive Bayes | A | | | 1 |
-| Linear regression | A | | [Linear Regression predicting insurance ](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" | 1 |
+| Naive Bayes | A | |[Naive Bayes trained on Wine Quality](extra_notebooks\naiveBayesWineQuality.ipynb) | 1 |
+| Linear regression | A | | [Linear Regression predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" | 1 |
 | Logistic regression | A | |[Logistic Regression with Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)| 1 |
-| Decision tree | A | | [Decision Tree predicting insurance ](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" |  1 |
-| Random forest | A | | [Random forest predicting insurance ](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels)- see the section titled "Training models" and [Random Forest predicting Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)  | 1 |
+| Decision tree | A | | [Decision Tree predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" |  1 |
+| Random forest | A | | [Random forest predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels)- see the section titled "Training models" and [Random Forest predicting Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)  | 1 |
 | Supervised vs unsupervised learning | K | | | 1 | |
 | Geschikte performance measures kiezen | A | | | 1 | |
 | Clustering | T | | [Clustering with penguin species](machinelearning\Les3\PenguineSpecies\PenguinSpeciesClustering.ipynb#PlottingTheClusters) - see the section titled "Plotting the clusters"| 2 |
@@ -63,7 +63,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Autoencoders | T | |[Creating Autoencoders](python_nn\NeuralNetworkCompare.ipynb) | 2 |
 | Transformers | T | |[Creating Transformers](python_nn\NeuralNetworkCompare.ipynb) | 3 |
 | Adversarial learning | T | |[Adversarial learning](python_nn\NeuralNetworkCompare.ipynb) | 3 |
-| Reinforcement learning | T | | [Reinforcement learning](python_nn\NeuralNetworkCompare.ipynb) | 2 |
+| Reinforcement learning | T |MOET IK NOG AAN WERKEN| [Reinforcement learning](python_nn\NeuralNetworkCompare.ipynb) | 2 |
 | | | | | |
 | **Model verbeteren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Cross validation | T | |[Cross validation on each model](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 1 |
@@ -72,10 +72,10 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | XAI extensies | A | | | 3 |
  | | | | |
 | **Evalueren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
-| Overfitting en underfitting | A | | [Overfitting model on pizza not pizza classification](machinelearning\Les3\pizza_not_pizza\BinairyClassificationPizzaWithNeuralNetwork.ipynb#FitTheModel) - see the section titled "Fit the model" | 1 |
-| Learning curve | A | | | 1 |
+| Overfitting en underfitting | A | | [Overfitting and underfitting with different neural networks](python_nn\NeuralNetworkCompare.ipynb)| 1 |
+| Learning curve | A | |[Learning curves with different neural networks](python_nn\NeuralNetworkCompare.ipynb) | 1 |
 | Confusion matrix | A | | [wiskunde\statistics\statisticsTitanic](wiskunde\statistics\statisticsTitanic.ipynb)- see the section titled "Confusion Matrix"| 1 |
-| ROC curve | A | | | 1 |
+| ROC curve | A | |[ROC Curve based on Naive Bayes trained on Wine Quality](extra_notebooks\naiveBayesWineQuality.ipynb) | 1 |
 | Testen op bias en betrouwbaarheid | T | | [wiskunde\statistics\statisticsTitanic](wiskunde\statistics\statisticsTitanic.ipynb)- see the section titled "Bias and Reliability"| 3 |
 | | | | | |
 | **Toepassingen** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
