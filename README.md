@@ -24,16 +24,16 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Relatie wiskunde en AI | A | Behaald tijdens wiskunde assignment |[Kostenfuncties PDF](wiskunde\Gradient_descent_en_kostenfuncties.pdf)  | 3 | |
 | | | | | | |
 | **Inzicht verkrijgen in data** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | |
-| Scatter matrix | A | Behaald tijdens wiskunde assignment |[Scatterplot en pairplot toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 | |
-| Data visualiseren | A | Behaald tijdens wiskunde assignment |[Data visualiseren toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 | |
-| Normaalverdeling | T | Behaald tijdens wiskunde assignment | | 1 | |
-| Regressie-analyse | T | Behaald tijdens wiskunde assignment | | 1 | |
+| Scatter matrix | A | Behaald tijdens wiskunde assignment |[Scatterplot en pairplot toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 | |
+| Data visualiseren | A | Behaald tijdens wiskunde assignment |[Data visualiseren toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 | |
+| Normaalverdeling | T | Behaald tijdens wiskunde assignment |[Normaal verdeling als voorbeeld](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 | |
+| Regressie-analyse | T | Behaald tijdens wiskunde assignment | [Regressie analyse op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 | |
 | | | | | | |
 | **Data voorbereiden en feature selection** |**Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | |
-| Z-scores | T | Behaald tijdens wiskunde assignment |[Z-scores toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1,2 |
-| Standaardafwijking | T | Behaald tijdens wiskunde assignment |[Standaardafwijking gebruikt bij verwijderen outliers bij boxplot van titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
+| Z-scores | T | Behaald tijdens wiskunde assignment |[Z-scores toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1,2 |
+| Standaardafwijking | T | Behaald tijdens wiskunde assignment |[Standaardafwijking gebruikt bij verwijderen outliers bij boxplot van Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
 | Normaliseren | T | Behaald tijdens wiskunde assignment |[Preprocessed the image data by resizing and normalizing the images, and encoded the labels.](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) - see the section titleed "Data Preprocessing"| 1,2 |
-| T-toets | A | Behaald tijdens wiskunde assignment |[T-toets toegepast op titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
+| T-toets | A | Behaald tijdens wiskunde assignment |[T-toets toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#) | 1 |
 | ANOVA | T | Behaald tijdens wiskunde assignment |[Anova toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1,2 |
 | Correlatiematrix | A | Behaald tijdens wiskunde assignment | [Correlatie matrix toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 1 |
 | PCA | T | Behaald tijdens wiskunde assignment | [PCA toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#)| 2 | 
@@ -68,7 +68,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | **Model verbeteren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Cross validation | T | |[Cross validation on each model](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 1 |
 | Ensemble methods | T | | | 2 |
-| Transfer learning | T | | | 2 |
+| Transfer learning | T | |[Transfer Learning with VGG16 model pre-trained on the ImageNet dataset](extra_notebooks\transferLearning.ipynb) | 2 |
 | XAI extensies | A | | | 3 |
  | | | | |
 | **Evalueren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
