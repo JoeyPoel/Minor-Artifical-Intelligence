@@ -40,7 +40,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Bias en betrouwbaarheid | T | Behaald tijdens wiskunde assignment |[Bias and reliability toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#Bias-and-Reliability)| 2 | 
  | | | | |
 | **Python** | | | | |
-| Advanced python (Comp/Dict/Slicing) | T | [Python Notebook Task Scheduler](extra_notebooks\taskSchedulerPython.ipynb)| 1 | |
+| Advanced python (Comp/Dict/Slicing) | T || [Python Notebook Task Scheduler](extra_notebooks\taskSchedulerPython.ipynb)| 1 |
  | | | | |
 | **Model selecteren, instellen, trainen en testen/valideren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Geschikt algoritme kiezen | A | | | 3 |
