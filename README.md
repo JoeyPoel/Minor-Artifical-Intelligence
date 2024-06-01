@@ -40,7 +40,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Bias en betrouwbaarheid | T | Behaald tijdens wiskunde assignment |[Bias and reliability toegepast op Titanic Dataset](wiskunde\statistics\statisticsTitanic.ipynb#Bias-and-Reliability)| 2 | 
  | | | | |
 | **Python** | | | | |
-| Advanced python (Comp/Dict/Slicing) | T | | | 1 | |
+| Advanced python (Comp/Dict/Slicing) | T | [Python Notebook Task Scheduler](extra_notebooks\taskSchedulerPython.ipynb)| 1 | |
  | | | | |
 | **Model selecteren, instellen, trainen en testen/valideren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Geschikt algoritme kiezen | A | | | 3 |
@@ -51,7 +51,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Logistic regression | A | |[Logistic Regression with Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)| 1 |
 | Decision tree | A | | [Decision Tree predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" |  1 |
 | Random forest | A | | [Random forest predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels)- see the section titled "Training models" and [Random Forest predicting Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)  | 1 |
-| Supervised vs unsupervised learning | K | | | 1 | |
+| Supervised vs unsupervised learning | K | |[Supervised vs Unsupervised Learning based on breasd cancer](extra_notebooks\supervised_vs_unsupervised_learning.ipynb) | 1 | |
 | Geschikte performance measures kiezen | A | | | 1 | |
 | Clustering | T | | [Clustering with penguin species](machinelearning\Les3\PenguineSpecies\PenguinSpeciesClustering.ipynb#PlottingTheClusters) - see the section titled "Plotting the clusters"| 2 |
 | | | | |
