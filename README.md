@@ -82,6 +82,6 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Neural network from scratch | C | |[Creating a Dense Neural Network](python_nn/NeuralNetworkFromScratch.ipynb)| 1 |
 | Optimaliseren (gebruik GPU, Cloud, real-time) | T | | | 3 |
 | Kwaliteit AAI software | T | |[Voorbeeld Kwalitatief zelf gemaakt notebook](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb), [File met alle requirements](requirements.txt)| 3 |
-| DL voor object detectie | T | | | 2, 3 |
-| Werken volgens planning | C | | | 3 | [This is an internal link to weekplanning](weekplanning.md) |
+| DL voor object detectie | T | |[Neural Networks Binary Classfication Images of pizza](machinelearning\Les3\pizza_not_pizza\BinairyClassificationPizzaWithNeuralNetwork.ipynb) and [Image recognition Monkey Species](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 2, 3 |
+| Werken volgens planning | C | |[Reflectie op werken volgens planning](Reflectie_Werken_volgens_planning.pdf) | 3 | [This is an internal link to weekplanning](weekplanning.md) |
 | Taalmodellen verfijnen en integreren | T | | | 3 | |
