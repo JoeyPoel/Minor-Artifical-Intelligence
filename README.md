@@ -43,7 +43,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Advanced python (Comp/Dict/Slicing) | T || [Python Notebook Task Scheduler](extra_notebooks\taskSchedulerPython.ipynb)| 1 |
  | | | | |
 | **Model selecteren, instellen, trainen en testen/valideren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
-| Geschikt algoritme kiezen | A | | | 3 |
+| Geschikt algoritme kiezen | A | |[Model op basis van snelheid en accuracy vergelijken (Monkey Species Images Dataset)](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)| 3 |
 | KNN | A | | [KNN toegepast op herkenning van handgeschreven cijfers](bootcamp\Dag_8\2024_02_16_MNIST_kNN_opdracht.ipynb) | 1 |
 | SVM | A | |[Support Vector Machine](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)| 1 |
 | Naive Bayes | A | |[Naive Bayes trained on Wine Quality](extra_notebooks\naiveBayesWineQuality.ipynb) | 1 |
@@ -52,7 +52,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Decision tree | A | | [Decision Tree predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels) - see the section titled "Training models" |  1 |
 | Random forest | A | | [Random forest predicting insurance](machineLearning\Les3/Medicalcost/LinearRegressionInsurance.ipynb#Trainingmodels)- see the section titled "Training models" and [Random Forest predicting Monkey Species Images](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb)  | 1 |
 | Supervised vs unsupervised learning | K | |[Supervised vs Unsupervised Learning based on breasd cancer](extra_notebooks\supervised_vs_unsupervised_learning.ipynb) | 1 | |
-| Geschikte performance measures kiezen | A | | | 1 | |
+| Geschikte performance measures kiezen | A | |[A lot of different performance measures](wiskunde\statistics\statisticsTitanic.ipynb) and [Roc Curve and Learning Curve](extra_notebooks\naiveBayesWineQuality.ipynb)  | 1 | |
 | Clustering | T | | [Clustering with penguin species](machinelearning\Les3\PenguineSpecies\PenguinSpeciesClustering.ipynb#PlottingTheClusters) - see the section titled "Plotting the clusters"| 2 |
 | | | | |
 | **Deep neural nets** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
@@ -67,9 +67,9 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | | | | | |
 | **Model verbeteren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Cross validation | T | |[Cross validation on each model](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 1 |
-| Ensemble methods | T | | | 2 |
+| Ensemble methods | T | |[Ensemble Methods on California Housing Problem](extra_notebooks\ensembleMethods.ipynb) | 2 |
 | Transfer learning | T | |[Transfer Learning with VGG16 model pre-trained on the ImageNet dataset](extra_notebooks\transferLearning.ipynb) | 2 |
-| XAI extensies | A | | | 3 |
+| XAI extensies | A | |[Shap and Lime models used on Titanic Dataset](extra_notebooks\explainableAI.ipynb)| 3 |
  | | | | |
 | **Evalueren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Overfitting en underfitting | A | | [Overfitting and underfitting with different neural networks](python_nn\NeuralNetworkCompare.ipynb)| 1 |
