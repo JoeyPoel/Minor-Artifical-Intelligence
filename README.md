@@ -84,4 +84,4 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Kwaliteit AAI software | T | |[Voorbeeld Kwalitatief zelf gemaakt notebook](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb), [File met alle requirements](requirements.txt)| 3 |
 | DL voor object detectie | T | |[Neural Networks Binary Classfication Images of pizza](machinelearning\Les3\pizza_not_pizza\BinairyClassificationPizzaWithNeuralNetwork.ipynb) and [Image recognition Monkey Species](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 2, 3 |
 | Werken volgens planning | C | |[Reflectie op werken volgens planning](Reflectie_Werken_volgens_planning.pdf) | 3 | [This is an internal link to weekplanning](weekplanning.md) |
-| Taalmodellen verfijnen en integreren | T | | | 3 | |
+| Taalmodellen verfijnen en integreren | T | |[Model Learns to write Abba Songtexts](extra_notebooks\abba\abbaSongText.ipynb)| 3 | |
