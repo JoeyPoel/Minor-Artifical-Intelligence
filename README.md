@@ -63,7 +63,7 @@ Voor het bewijs maak je vaak gebruikt van notebooks die gedeeltelijk zijn gemaak
 | Autoencoders | T | |[Creating Autoencoders](python_nn\NeuralNetworkCompare.ipynb) | 2 |
 | Transformers | T | |[Creating Transformers](python_nn\NeuralNetworkCompare.ipynb) | 3 |
 | Adversarial learning | T | |[Adversarial learning](python_nn\NeuralNetworkCompare.ipynb) | 3 |
-| Reinforcement learning | T |MOET IK NOG AAN WERKEN| [Reinforcement learning](python_nn\NeuralNetworkCompare.ipynb) | 2 |
+| Reinforcement learning | T | | [Reinforcement learning](python_nn\NeuralNetworkCompare.ipynb) | 2 |
 | | | | | |
 | **Model verbeteren** | **Vereiste soort** | **Soort** | **Link naar bewijs** | **Sprint (optioneel)** | *coach opmerking* | | | |
 | Cross validation | T | |[Cross validation on each model](machinelearning\Les3\MonkeySpecies\MonkeySpeciesMulticlass.ipynb) | 1 |
